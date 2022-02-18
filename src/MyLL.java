@@ -29,9 +29,11 @@ public class MyLL {
 		return;
 	}
 	
-	public void removeFromFront() {
+	public StudentInfo removeFromFront() {
+		StudentInfo tempStudent = frontOfList;
 		frontOfList = frontOfList.next;
 		decrementnumInList();
+		return tempStudent;
 	} // end addToFront
 
 	// appends the specified element to the end of this list.
