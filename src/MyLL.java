@@ -93,15 +93,6 @@ public class MyLL {
 
 		System.out.println("There are " + numInList + " items in the list.");
 	}
-
-	private static int getnumInList() {
-		return numInList;
-	}
-
-	// returns the number of elements in this list.
-	public int size() {
-		return getnumInList();
-	}
  
 	private static void incrementnumInList() {
 		numInList++;
